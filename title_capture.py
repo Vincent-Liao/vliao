@@ -39,6 +39,7 @@ def modify(x):
 
 
 def main(filename):
+    del final_result[:]
     r = {}
     google_title = get_google_title(filename)
     scopus_title = get_scopus_title(filename)
